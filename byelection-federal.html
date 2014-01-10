@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script src="http://www.stuartathompson.com/globedev/base/jquery.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://beta.images.theglobeandmail.com/media/www/css/global.fonts.css">
+<script src="http://www.stuartathompson.com/globedev/base/tabletop.js"></script>
+<script src="http://www.stuartathompson.com/globedev/base/raphael-min.js"></script>
+<script src="http://beta.images.theglobeandmail.com/static/templates/js/miso.ds.deps.ie.min.0.3.0.js"></script>
+
+<script src="http://www.stuartathompson.com/globedev/base/byelection-assets/jquery.csv-0.71.min.js"></script>
+<script src="http://www.stuartathompson.com/globedev/base/byelection-assets/fed-byelection-winners.js"></script>
+
+<!-- Isotope -->
+<script src="http://beta.images.theglobeandmail.com/static/national/summitseries1972/js/jquery.isotope.min.js"></script>
+
+<!-- Font -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+<style type="text/css">
+.progress,.progress-bar{
+	height:20px;
+	width:250px;
+	clear:both;
+}
+.progress{
+	float:right;
+	position: relative;
+	background-color:#eee;
+	margin:5px 0 0;
+}
+.progress-bar{
+	position: absolute;
+	background-color:#333;
+}
+.sr-only{
+	display:none;
+}
+.progress-bar.liberal,.progress-bar.liberals{
+	background-color:#b80c00;
+}
+.progress-bar.conservative,.progress-bar.conservatives,.progress-bar.pc{
+	background-color:#5288d2;
+}
+.progress-bar.ndp{
+	background-color:#e0ad4d;
+}
+.progress-bar.green{
+	background-color:#7db85e;
+}
+.progress-bar.blocquebecois, .progress-bar.bloc{
+	background-color:#204a7e;
+}
+#gi{
+    color: #333;
+    font-family:"Open Sans",Helvetica,sans-serif;
+	width:460px;
+	font-size:13px;
+	margin:0 0 0 160px;
+	position: relative;
+}
+.gi-unit{
+	width:100%;
+	float:left;
+	position: relative;
+	margin-bottom:50px;
+}
+.gi-lede{
+	color:#3b3b3b;
+	line-height:2;
+	font-family:Verdana,Arial,sans-serif;
+	font-size:12px;
+	line-height:1.5;
+	font-weight:normal;
+	float:left;
+	width:460px;
+	margin:0 0 20px 0;
+}
+#gi h3{
+	margin:0 0 10px;
+	padding:0;
+	font-size:18px;
+	font-weight:bold;
+}
+.reporting{
+	float: left;
+	width: 100%;
+	margin: 13px 0;
+}
+#gi .gi-ballot{
+	width:100%;
+}
+.tr{
+	float:left;
+	width:100%;
+	padding:10px 0;
+	clear:both;
+	background-color:white;
+	position: relative;
+	border-bottom: 1px solid #eee;
+}
+#gi .gi-ballot .td{
+float:left;
+}
+.gi-ballot .vote-info{
+	width:200px;
+}
+.gi-ballot .vote-total{
+	position: absolute !important;
+	text-align: left;
+	right:0 !important;
+	top:0 !important;
+	border-bottom:0 !important;
+	margin-right:0 !important;
+	width:250px;
+	margin-top:20px;
+}
+#gi .td span{
+}
+#gi .tr .td:first-child{
+	text-align: left;
+	font-weight: normal;
+	margin-top: 10px;
+	line-height: 1.6;
+}
+.gi-img{
+	float:left;
+	margin-top:-10px;
+	position: relative;
+	height:69px;
+	width:69px;
+	margin-right:10px;
+}
+.gi-img img{
+	position: absolute;
+}
+.pc .gi-img img,.pcparty .gi-img img,.conservative .gi-img img{
+	border-color:#2f508a;
+}
+.ndp .gi-img img,.ndpnewdemocraticparty .gi-img img{
+	border-color:#e96900;
+}
+.liberal .gi-img img,.liberalparty .gi-img img{
+	border-color:#852426;
+}
+.green .gi-img img,.greenparty .gi-img img{
+	border-color:green;
+}
+.winner {
+background-image: url('http://www.theglobeandmail.com/static/politics/election/2013-liberal/winner.png');
+z-index: 10;
+position: absolute;
+left: 0;
+bottom:10px;
+width: 20px;
+display:none;
+height: 20px;
+}
+.winner-label{
+	display:none;
+	color:white;
+	background-color:#b80c00;
+	padding:3px 5px;
+	margin-top:-19px;
+	font-weight:bold;
+	float:right;
+	font-size:9px;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+}
+.winner.showing,.winner-label.showing{
+	display:block;
+}
+#live-button,#refresh-button{
+}
+#refresh-button{
+}
+#refresh-button:active{
+}
+#live-button.off{
+}
+/**** Isotope Filtering ****/
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:      -o-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+     -moz-transition-duration: 0s;
+      -ms-transition-duration: 0s;
+       -o-transition-duration: 0s;
+          transition-duration: 0s;
+}
+
+/* Smartphones -------------------------------*/
+@media screen and (max-width: 480px) {
+	#gi p, #gi,.gi-chart{
+		margin-left:0;
+		width:100%;
+	}
+	#refresh-button{
+		margin-top:0px;
+		margin-right:10px;
+	}
+	.gi-ballot .vote-total{
+		position: relative !important; 
+		width:50%;
+		margin-top:10px !important;
+	}
+	.gi-ballot .vote-info{
+		width:50%;
+	}
+	.tr{
+		height:auto;
+		padding-bottom:20px;
+	}
+	.winner.showing{
+		display:none;
+	}
+	.progress{
+		width:100%;
+	}
+	.gi-img{
+		display:none;
+	}
+}
+</style>
+
+<script type="text/javascript">
+$('document').ready(function(){
+function sortVotes(data){
+	data.sort(function(a,b) { return parseFloat(b.votes) - parseFloat(a.votes) } );
+}
+function addCommas(nStr)
+{
+	nStr += '';
+	x = nStr.split('.');
+	x1 = x[0];
+	x2 = x.length > 1 ? '.' + x[1] : '';
+	var rgx = /(\d+)(\d{3})/;
+	while (rgx.test(x1)) {
+		x1 = x1.replace(rgx, '$1' + ',' + '$2');
+	}
+	return x1 + x2;
+}
+function randomIE()
+{
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for( var i=0; i < 5; i++ )
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+    return text;
+}
+
+var data = [],
+	section = [];
+var ridingNumbers = [
+	1468,
+	1220,
+	1227,
+	1432
+];
+var ridingNames = [
+	'Toronto Centre (Ontario)',
+	'Bourassa (Quebec)',
+	'Brandon-Souris (Manitoba)',
+	'Provencher (Manitoba)'
+];
+var acceptedParties = [
+	"PC Party",
+	"Green Party",
+	"Liberal",
+	"NDP",
+	"NDP-New Democratic Party",
+	"Conservative",
+	"Bloc Quebecois",
+	"Bloc Qu\u00e9b\u00e9cois"
+];
+var hiddenCandidates = [
+	"Geoff Pollock"
+];
+var winners = [];
+var createdOnce = false;
+
+function fetch(){
+$.ajax({
+	url:'http://beta.images.theglobeandmail.com/static/politics/election/2013-by-fed/data/fed-byelection-winners.js?' + Math.random(),
+	dataType:'script',
+	success: function(data){
+		data = winnerfields;
+		if(data){
+			winners = data;
+		}
+	},
+	error:function(){
+		
+	}
+});
+$.ajax({
+	url:'http://beta.images.theglobeandmail.com/static/politics/election/2013-by-fed/data/fed-byelection-results.js?' + Math.random(),
+	dataType:'script',
+	success: function(){
+	data = results;
+	if(data){
+	data.splice(0,1);
+	var lastSection = '',
+		sectionCount = 0;
+	$.each(data,function(i,d){
+		// Create the array for each riding
+		if(lastSection != d.riding) sectionCount++, section[sectionCount] = [];
+		// Push a new group (candidate) into this riding
+		section[sectionCount].push({
+			'riding':d.riding,
+			'candidate':d.candidate,
+			'party':d.party,
+			'votes':d.votes,
+			'percent':parseInt(d.percent),
+			'winner':d.winner,
+			'polls':d.polls,
+			'turnout':d.turnout
+		});
+		lastSection = d.riding;
+	});
+	if(createdOnce){
+		updateViz(section);
+	} else {
+		createViz(section);
+	}
+	}
+	}
+});
+}
+fetch();
+setInterval(fetch,30000);
+ 
+function createViz(data){
+	createdOnce = true;
+	$.each(data,function(i,d){
+		if(typeof d != 'undefined'){
+		
+		// Create sections
+		var content = '<div class="gi-unit" id="unit-' + d[0].riding + '"><h3>' + ridingNames[i-1] + '</h3><div class="gi-ballot"></div><div class="reporting"><span>' + d[0].polls.replace(/ %/g,'%') + '</span> polls reporting</div></div>';
+		$('#gi').append(content);
+		
+		// Assign max for each group
+		var valuemax = 100;
+		// Append candidates to each section
+		$.each(d,function(j,k){
+			//Check for winner
+			var winner = '';
+			$.each(winners,function(l,m){
+				if(m.winner == k.candidate){
+					winner = 'showing';
+				}
+			});
+			// Verify wanted parties and candidates
+			if(jQuery.inArray(k.candidate,hiddenCandidates) < 0 && jQuery.inArray(k.party,acceptedParties) > -1 && k.candidate != ''){
+			content = '<div class="element tr" id="row-' + k.candidate.replace(/ /g,'').replace(/\./g,'').toLowerCase() + '"><div class="td vote-info ' + k.party.toLowerCase().replace(/\s/g,'').replace('-','').replace(/\u00e9/g,'e') + '">';
+			content += '<div class="winner ' + winner + '"></div>';
+			content += '<div class="gi-img"><img style="z-index:2" src="http://beta.images.theglobeandmail.com/static/politics/election/2013-by-fed/overlay.png" />';
+			content += '<img style="z-index:1" src="http://beta.images.theglobeandmail.com/static/politics/election/2013-by-fed/' + k.candidate.replace(/ /g,'').replace(/é/,'e').toLowerCase() + '.jpg" />'
+					+ '</div>';
+			if(k.winner != '' && k.winner != null) content += '<span>ELECTED</span><br />';
+			content += '<strong>' + k.party.split('-')[0]  + '</strong><br />' + k.candidate + '</div><div class="td vote-total"><span class="gi-votes">' + k.votes + '</span> (<span class="gi-percent">' + k.percent + '%</span>)<br /><div class="winner-label ' + winner + '">Elected</div><div class="progress"><div data-width="' + k.percent + '" class="progress-bar ' + k.party.split(' ')[0].split('-')[0].toLowerCase() + '" role="progressbar" aria-valuemax="' + valuemax + '" aria-valuemin="0" aria-valuenow="'+ k.percent + '" style="width:' + k.percent +'%"><span class="sr-only">' + k.percent + '%</span></div></div></div></div> ';
+			$('#gi .gi-ballot').last().append(content);
+			}
+		});
+		}
+		
+		// Sort descending by vote
+		$('.gi-ballot').isotope({
+			itemSelector: '.tr',
+			getSortData : {
+				number: function($elem){
+					return parseInt($elem.find('.sr-only').text(),10);
+				}
+			},
+			sortBy:'number',
+			sortAscending:false
+		});
+		
+	})
+}
+
+function updateViz(data){
+	$.each(data,function(i,d){
+		if(typeof d != 'undefined'){
+		$.each(d,function(j,k){
+			// Verify wanted parties and candidates
+			if(jQuery.inArray(k.candidate,hiddenCandidates) < 0 && jQuery.inArray(k.party,acceptedParties) > -1 && k.candidate != ''){
+			
+			$row = $('#row-' + k.candidate.replace(/ /g,'').replace(/\./g,'').toLowerCase());
+			// update votes
+			$row.find('.gi-votes').text(k.votes);
+				
+			// update per cent
+			$row.find('.progress-bar').animate({
+				width:k.percent+'%'
+			});
+			$row.find('.gi-percent').text(k.percent + '%');
+			$row.find('.sr-only').text(k.percent);			
+			
+			// update winner
+			//Check for winner
+			var winner = '';
+			$.each(winners,function(l,m){
+				if(m.winner == k.candidate){
+					winner = 'showing';
+				}
+			});
+			if(winner != ''){
+				$row.find('.winner,.winner-label').addClass(winner);
+			} else {
+				$row.find('.winner,.winner-label').removeClass('showing');
+			}
+
+			}
+		});
+		
+		// update reporting
+		$('#unit-' + d[0].riding.replace(/ /g,'').replace(/-/g,'').toLowerCase() + ' .reporting span').text(d[0].polls.replace(/ %/g,'%'));
+
+		// Reorder
+		$('#unit-' + d[0].riding.replace(/ /g,'').replace(/-/g,'').toLowerCase() + ' .gi-ballot').isotope('updateSortData',$('#unit-' + d[0].riding.replace(/ /g,'').replace(/-/g,'').toLowerCase()).find('.tr'));		
+		$('#unit-' + d[0].riding.replace(/ /g,'').replace(/-/g,'').toLowerCase() + ' .gi-ballot').isotope({
+			sortBy : 'number'
+		})
+
+		}
+	})
+}
+
+})
+</script>
+
+<div id="gi">
+	<p class="gi-lede">Follow the results of four federal by-elections using The Globe’s interactive results page. This page will update automatically with new results as they become available.</p>
+<!--
+	<div class="button btn" id="live-button"><span class="glyphicon glyphicon-record"></span> Live</div>
+	<div class="button btn" id="refresh-button">Reload</div>
+-->
+</div>
+<div style="width:100%;clear:both;margin-top:20px;"></div>
+<div style="color: #999;
+font: normal 10px/1.5em Arial, Helvetica, sans-serif;
+padding-top: 30px;
+text-align:left;
+float:left;">Data from Elections Canadaa<br/>Photographs courtesy of the candidates<br />Interactive by <a style="color:#999" href="mailto:sathompson@globeandmail.com">STUART A. THOMPSON<br /><a  style="color:#999" href="mailto:sathompson@globeandmail.com">FEEDBACK</a></div>

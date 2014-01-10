@@ -1,0 +1,162 @@
+[02-Aug-2013 19:40:45 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 5
+[02-Aug-2013 19:40:58 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 5
+[02-Aug-2013 19:42:04 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:42:05 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:42:45 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:43:54 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:44:00 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:45:14 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:45:16 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:47:05 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:48:24 America/Denver] PHP Fatal error:  Call to undefined function fgetscv() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 6
+[02-Aug-2013 19:50:06 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:51:17 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:54:46 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:55:42 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:56:00 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:56:04 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:57:13 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:57:16 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:58:40 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 9
+[02-Aug-2013 19:59:43 America/Denver] PHP Fatal error:  Call to undefined function length() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:59:45 America/Denver] PHP Fatal error:  Call to undefined function length() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:59:46 America/Denver] PHP Fatal error:  Call to undefined function length() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 19:59:49 America/Denver] PHP Fatal error:  Call to undefined function length() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[02-Aug-2013 20:00:05 America/Denver] PHP Fatal error:  Call to undefined function length() in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 7
+[03-Aug-2013 20:38:40 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 11
+[03-Aug-2013 20:38:58 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 11
+[03-Aug-2013 20:39:01 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 11
+[03-Aug-2013 21:05:04 America/Denver] PHP Parse error:  syntax error, unexpected '}' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 15
+[03-Aug-2013 21:10:02 America/Denver] PHP Parse error:  syntax error, unexpected T_ARRAY in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[03-Aug-2013 21:10:34 America/Denver] PHP Parse error:  syntax error, unexpected T_ARRAY in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[03-Aug-2013 21:10:43 America/Denver] PHP Parse error:  syntax error, unexpected T_ARRAY in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[03-Aug-2013 21:10:49 America/Denver] PHP Parse error:  syntax error, unexpected T_ARRAY in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[03-Aug-2013 21:10:58 America/Denver] PHP Parse error:  syntax error, unexpected '[' in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionsave.php on line 8
+[05-Aug-2013 07:19:45 America/Denver] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home5/stuartat/public_html/globedev/base/byelection-assets/byelectionopen.php on line 2
+[06-Aug-2013 13:34:39 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 23
+[06-Aug-2013 13:34:44 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 23
+[06-Aug-2013 13:34:55 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 23
+[06-Aug-2013 13:34:57 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 23
+[06-Aug-2013 13:35:02 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 23
+[06-Aug-2013 13:35:12 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 23
+[06-Aug-2013 13:36:25 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 19
+[06-Aug-2013 13:36:26 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 19
+[06-Aug-2013 13:36:34 America/Denver] PHP Parse error:  syntax error, unexpected '{' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 19
+[06-Aug-2013 13:37:06 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 25
+[06-Aug-2013 13:37:14 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 27
+[06-Aug-2013 13:37:50 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 28
+[06-Aug-2013 13:37:59 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 28
+[06-Aug-2013 13:38:01 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 28
+[06-Aug-2013 13:38:02 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 28
+[06-Aug-2013 13:38:03 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 28
+[06-Aug-2013 13:38:08 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 28
+[06-Aug-2013 13:38:27 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 30
+[06-Aug-2013 13:38:28 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 30
+[06-Aug-2013 13:38:37 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 13:49:16 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 13:52:20 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 13:57:16 America/Denver] PHP Notice:  Undefined index: firstname in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 2
+[06-Aug-2013 13:57:33 America/Denver] PHP Notice:  Undefined index: firstname in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 2
+[06-Aug-2013 13:57:54 America/Denver] PHP Notice:  Undefined index: firstname in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 2
+[06-Aug-2013 14:01:26 America/Denver] PHP Notice:  Undefined index: firstname in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 2
+[06-Aug-2013 14:12:54 America/Denver] PHP Parse error:  syntax error, unexpected '[' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 11
+[06-Aug-2013 14:13:08 America/Denver] PHP Parse error:  syntax error, unexpected '[' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 11
+[06-Aug-2013 14:13:14 America/Denver] PHP Parse error:  syntax error, unexpected '[' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 11
+[06-Aug-2013 14:13:23 America/Denver] PHP Parse error:  syntax error, unexpected '[' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 11
+[06-Aug-2013 14:13:31 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:13:34 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:13:38 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:13:45 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:13:46 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:14:02 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:14:03 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:14:15 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:14:39 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:14:40 America/Denver] PHP Notice:  Undefined index: pass in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 3
+[06-Aug-2013 14:17:28 America/Denver] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 17
+[06-Aug-2013 14:24:14 America/Denver] PHP Parse error:  syntax error, unexpected '.' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 17
+[06-Aug-2013 14:24:16 America/Denver] PHP Parse error:  syntax error, unexpected '.' in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 17
+[06-Aug-2013 14:31:03 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:04 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:06 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:07 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:08 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:09 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:11 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:11 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:13 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:14 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:15 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:17 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:18 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:19 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:20 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:22 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:23 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:24 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:26 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 14:31:27 America/Denver] PHP Notice:  Undefined index: callback in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 5
+[06-Aug-2013 19:57:05 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:57:20 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:57:39 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:57:49 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:58:05 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:58:27 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:58:41 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:58:45 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:58:54 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:59:00 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:59:02 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:59:05 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:59:07 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 33
+[06-Aug-2013 19:59:37 America/Denver] PHP Notice:  Undefined variable: count in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 24
+[06-Aug-2013 19:59:37 America/Denver] PHP Fatal error:  Function name must be a string in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 24
+[06-Aug-2013 19:59:41 America/Denver] PHP Notice:  Undefined variable: count in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 24
+[06-Aug-2013 19:59:41 America/Denver] PHP Fatal error:  Function name must be a string in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 24
+[06-Aug-2013 20:00:11 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:00:29 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:02:28 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:14:17 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:23:46 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 9
+[06-Aug-2013 20:23:46 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 16
+[06-Aug-2013 20:23:46 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 49
+[06-Aug-2013 20:23:51 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 9
+[06-Aug-2013 20:23:51 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 16
+[06-Aug-2013 20:23:51 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 49
+[06-Aug-2013 20:24:07 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 9
+[06-Aug-2013 20:24:07 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 16
+[06-Aug-2013 20:24:07 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 49
+[06-Aug-2013 20:24:15 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:25:55 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:36:30 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 6
+[06-Aug-2013 20:36:30 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 12
+[06-Aug-2013 20:36:30 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 36
+[06-Aug-2013 20:36:43 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 6
+[06-Aug-2013 20:36:43 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 12
+[06-Aug-2013 20:36:43 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 36
+[06-Aug-2013 20:36:47 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 6
+[06-Aug-2013 20:36:47 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 12
+[06-Aug-2013 20:36:47 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsjsonp.php on line 36
+[06-Aug-2013 20:36:50 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:57:15 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 20:57:44 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 21:26:31 America/Denver] PHP Notice:  Undefined index: filename in /home5/stuartat/public_html/globedev/base/byelection-assets/addlinesave.php on line 6
+[06-Aug-2013 21:26:48 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[06-Aug-2013 21:27:06 America/Denver] PHP Notice:  Undefined index: filename in /home5/stuartat/public_html/globedev/base/byelection-assets/addlinesave.php on line 6
+[06-Aug-2013 21:30:28 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:06:40 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:06:52 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:07:30 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:07:41 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:07:42 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:07:45 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:08:47 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:09:11 America/Denver] PHP Warning:  fopen(electiondata.csv): failed to open stream: No such file or directory in /home5/stuartat/public_html/globedev/base/byelection-assets/addvotesave.php on line 4
+[07-Aug-2013 09:09:11 America/Denver] PHP Warning:  fgetcsv() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/addvotesave.php on line 10
+[07-Aug-2013 09:09:11 America/Denver] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home5/stuartat/public_html/globedev/base/byelection-assets/addvotesave.php on line 16
+[07-Aug-2013 09:09:14 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 09:09:17 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 12:48:09 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 13:08:19 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 14:14:57 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
+[07-Aug-2013 18:28:19 America/Denver] PHP Notice:  Undefined variable: content in /home5/stuartat/public_html/globedev/base/byelection-assets/commentsmoderate.php on line 34
